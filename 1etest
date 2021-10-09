@@ -96,8 +96,8 @@ function library:CreateTab(text, desc, mode)
     mode = mode or false
 	
     if mode then
-        theme = 
-    elseif mode == nil then
+    --    theme = 
+ --   elseif mode == nil then
         theme = _G.CustomTheme
     end
     local Tab = Instance.new("ImageButton")
